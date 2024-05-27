@@ -1,0 +1,117 @@
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+  flex: 1 0 20%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid red;
+  flex: 1 0 80%;
+}
+
+
+h1{
+  font-weight: bord; 
+}
+
+.first-section{
+  display:flex; 
+  flex-direction: column; 
+  
+}
+
+.left-section{
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.right-section{
+  width:60%;
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+  border: 2px solid red;
+}
+
+.right-first{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.right-second{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.hobbies-section {
+  padding-left: 20px;
+  border: 2px solid red;
+  height: 50%;
+}
+
+.movies-section {
+  padding-left: 20px;
+  border: 2px solid red;
+  height: 50%;
+}
+
+.mbti-section {
+  padding-left: 20px;
+  height: 50%;
+  border: 2px solid red;
+}
+
+.music-section{
+  padding-left: 20px;
+  height: 50%;
+  border: 2px solid red;
+}
+
+.movies-images{
+  display:flex;
+  justify-content: space-around;
+}
+
+table, td{
+  width: 80%;
+  text-align: center;
+}
+
+img{
+  width: 80%;
+}
+
+.img-size{
+  width:160px;
+}
+
+.mbti-name{
+  display:flex;
+}
+
+.movies-size{
+  width: 100px;
+  margin-right:10px;
+}
+
+
+
+
