@@ -6,22 +6,27 @@ body{
 }
 
 .profile {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
   flex: 1 0 20%;
+  background-color: palevioletred;
+  margin: 0px;
 }
 
 .container{
   display: flex;
   justify-content: center;
   padding: 20px;
-  border: 2px solid red;
   flex: 1 0 80%;
+  background-color: pink;
 }
 
 
-h1{
-  font-weight: bord; 
+.nav-font{
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .first-section{
@@ -32,57 +37,84 @@ h1{
 
 .left-section{
   width:20%;
+  align-items: center; 
+}
+
+.left-section-container{
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  padding: 20px;
-  border: 2px solid red;
+  align-items: center;
 }
+
 
 .right-section{
   width:60%;
   display: flex;
-  padding: 20px;
-  justify-content: flex-start;
-  border: 2px solid red;
+  
 }
 
 .right-first{
   width: 50%;
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 .right-second{
   width: 50%;
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+}
+
+.headline{
+  font-size: 30px; 
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .hobbies-section {
-  padding-left: 20px;
-  border: 2px solid red;
-  height: 50%;
+  height:50%;
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
 }
 
 .movies-section {
-  padding-left: 20px;
-  border: 2px solid red;
-  height: 50%;
+  height:50%;
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
 }
 
 .mbti-section {
-  padding-left: 20px;
-  height: 50%;
-  border: 2px solid red;
+  height:50%;
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
 }
 
 .music-section{
-  padding-left: 20px;
-  height: 50%;
-  border: 2px solid red;
+  height:50%;
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
+}
+
+.profile-image{
+  margin-top: 25px;
+  margin-bottom:25px;
+}
+
+.profile-font{
+  font-size: 30px;
+  margin-bottom:25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+table, td{
+  width: 80%;
+  text-align: center;
 }
 
 .movies-images{
@@ -90,27 +122,42 @@ h1{
   justify-content: space-around;
 }
 
-table, td{
-  width: 80%;
-  text-align: center;
+.my-mbti{
+  display:flex;
+  flex-direction: column;
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+}
+
+.mbti-image{
+  width: 120px;
+  margin-right: 10px;
+  justify-content: space-around;
+}
+
+
+.music-position{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
 }
 
 img{
   width: 80%;
 }
 
-.img-size{
-  width:160px;
-}
-
-.mbti-name{
-  display:flex;
-}
-
 .movies-size{
-  width: 100px;
+  width: 120px;
   margin-right:10px;
 }
+
+.music-size{
+  width: 160px;
+  text-align: center;
+}
+
+
 
 
 
